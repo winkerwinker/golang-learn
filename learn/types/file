@@ -1,0 +1,1 @@
+{"goodsCache":[{"delay":180,"fields":"id,new_category_id,price","name":"nissna"},{"dataSource":[{"delay":1,"fields":"id,new_category_id,price,cost_price","name":"es_goods"},{"delay":1,"fields":"isSecKill,isTenThousandGroup","name":"secKillService"}],"name":"zeus"}]}
