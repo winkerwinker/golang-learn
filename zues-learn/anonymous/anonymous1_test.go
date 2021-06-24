@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-多重继承
+//多重继承
 //func()
 //*reflect.rtype
 func TestAnonymouswUse11(t *testing.T) {
@@ -16,7 +16,6 @@ func TestAnonymouswUse11(t *testing.T) {
 	fmt.Println(string(jsonmsg))
 
 }
-
 
 type RequestCheckAndLoadModel struct {
 	BizCode   string
