@@ -24,5 +24,6 @@ func printMyName() string {
 	//Up two level
 	// Caller reports(举报) file
 	caller, _, _, _ := runtime.Caller(1)
+	// 返回对是方法指针， 将方法指针对接名字
 	return runtime.FuncForPC(caller).Name()
 }
