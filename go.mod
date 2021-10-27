@@ -8,10 +8,11 @@ go 1.16
 // 直接复制到本项目下面
 require (
 	github.com/allegro/bigcache v1.2.1 // indirect
+	github.com/jinzhu/copier v0.3.2
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/lestrrat-go/strftime v1.0.4 // indirect
-	github.com/mitchellh/mapstructure v1.4.1 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
+	github.com/mitchellh/mapstructure v1.4.1
+	github.com/pkg/errors v0.9.1
 	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.3.0

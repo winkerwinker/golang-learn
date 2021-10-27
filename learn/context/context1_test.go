@@ -10,6 +10,15 @@ import (
 
 // 如果使用4个chanel
 func TestContext5(t *testing.T) {
+
+	oneWeekResultMap := make(map[int64]bool, 10)
+
+	for i := 0; i < 10; i++ {
+		oneWeekResultMap[1] = true
+
+	}
+
+	fmt.Println("------------------")
 	bools := make(chan bool)
 
 	// 只有一个能被关闭
@@ -42,38 +51,6 @@ func TestContext4(t *testing.T) {
 	cancel()
 	time.Sleep(10 * time.Second)
 
-}
-
-func workChanel(x chan bool, name string) {
-	go func() {
-		for {
-			select {
-			// 回传一个chanel， 如果调用了哪个canel ，这边done就会有值
-			case <-x:
-				fmt.Println(name + ":stop")
-				return
-			default:
-				fmt.Println(name + ":still")
-				time.Sleep(1 * time.Second)
-			}
-		}
-	}()
-}
-
-func worker(ctx context.Context, name string) {
-	go func() {
-		for {
-			select {
-			// 回传一个chanel， 如果调用了哪个canel ，这边done就会有值
-			case <-ctx.Done():
-				fmt.Println(name + ":stop")
-				return
-			default:
-				fmt.Println(name + ":still")
-				time.Sleep(1 * time.Second)
-			}
-		}
-	}()
 }
 
 // 1. 有多个goroutine 需要终止

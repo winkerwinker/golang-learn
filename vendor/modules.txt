@@ -2,6 +2,9 @@
 ## explicit
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
+# github.com/jinzhu/copier v0.3.2
+## explicit
+github.com/jinzhu/copier
 # github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 ## explicit
 github.com/lestrrat-go/file-rotatelogs
@@ -11,6 +14,7 @@ github.com/lestrrat-go/file-rotatelogs/internal/option
 github.com/lestrrat-go/strftime
 # github.com/mitchellh/mapstructure v1.4.1
 ## explicit
+github.com/mitchellh/mapstructure
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors
