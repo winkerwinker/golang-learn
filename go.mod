@@ -16,5 +16,6 @@ require (
 	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.3.0
+	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11
 	gonum.org/v1/gonum v0.9.3
 )

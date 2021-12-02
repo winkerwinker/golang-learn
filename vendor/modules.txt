@@ -32,6 +32,9 @@ github.com/stretchr/testify/assert
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
+# golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11
+## explicit
+golang.org/x/time/rate
 # gonum.org/v1/gonum v0.9.3
 ## explicit
 gonum.org/v1/gonum/blas
